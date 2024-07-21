@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nucleartech:block/steelrailing"
+    },
+    "facing=south": {
+      "model": "nucleartech:block/steelrailing",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nucleartech:block/steelrailing",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "nucleartech:block/steelrailing",
+      "y": 90
+    }
+  }
+}
