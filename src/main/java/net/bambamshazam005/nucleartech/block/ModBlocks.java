@@ -21,7 +21,10 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, NuclearTech.MOD_ID);
 
-    public static final RegistryObject<Block> STEELRAILING = registerBlock("steelrailing",
+    public static final RegistryObject<Block> STEELBLOCK = registerBlock("steelblock",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> TESTPIPE = registerBlock("testpipe",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

@@ -1,0 +1,12 @@
+{
+  "asset_name": "steel",
+  "description": {
+    "color": "#6EECD2",
+    "translate": "trim_material.nucleartech.steel"
+  },
+  "ingredient": "nucleartech:steel",
+  "item_model_index": 0.8,
+  "override_armor_materials": {
+    "diamond": "steel_darker"
+  }
+}

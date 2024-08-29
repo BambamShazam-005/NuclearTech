@@ -1,0 +1,9 @@
+{
+	"loader": "forge:obj",
+	"flip_v": true,
+	"model": "nucleartech:models/blocl/testpipe.obj",
+	"textures": {
+
+	"texture0": "minecraft:block/dirt"
+	}
+}

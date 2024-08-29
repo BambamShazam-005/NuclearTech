@@ -2,7 +2,6 @@ package net.bambamshazam005.nucleartech;
 
 import com.mojang.logging.LogUtils;
 import net.bambamshazam005.nucleartech.block.ModBlocks;
-import net.bambamshazam005.nucleartech.block.custom.SteelRailing;
 import net.bambamshazam005.nucleartech.item.ModCreativeModTabs;
 import net.bambamshazam005.nucleartech.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -41,6 +40,7 @@ public class NuclearTech
 
 
         modEventBus.addListener(this::commonSetup);
+
 
         MinecraftForge.EVENT_BUS.register(this);
 

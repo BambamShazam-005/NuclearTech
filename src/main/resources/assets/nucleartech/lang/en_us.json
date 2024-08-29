@@ -1,8 +1,15 @@
 {
   "item.nucleartech.steelingot": "Steel Ingot",
 
+  "block.nucleartech.steelblock": "Steel Block",
   "block.nucleartech.steelrailing": "Steel Railing",
 
+  "item.nucleartech.steelhelmet": "Steel Helmet",
+  "item.nucleartech.steelchestplate": "Steel Chestplate",
+  "item.nucleartech.steelleggings": "Steel Leggings",
+  "item.nucleartech.steelboots": "Steel Boots",
 
-  "creativetab.nucleartech": "NuclearTech"
+  "creativetab.nucleartech": "NuclearTech",
+
+  "trim_material.nucleartech.steel": "Steel Material"
 }

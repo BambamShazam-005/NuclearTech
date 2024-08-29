@@ -20,7 +20,13 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.STEELINGOT.get());
 
-                        pOutput.accept(ModBlocks.STEELRAILING.get());
+                        pOutput.accept(ModBlocks.STEELBLOCK.get());
+                        pOutput.accept(ModBlocks.TESTPIPE.get());
+
+                        pOutput.accept(ModItems.STEELHELMET.get());
+                        pOutput.accept(ModItems.STEELCHESTPLATE.get());
+                        pOutput.accept(ModItems.STEELLEGGINGS.get());
+                        pOutput.accept(ModItems.STEELBOOTS.get());
 
 
                     })
